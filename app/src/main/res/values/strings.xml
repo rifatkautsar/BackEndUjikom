@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">Aplikasi Inventaris SMK</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--Spinner Text-->
+    <string-array name="level">
+        <item>1/administrator</item>
+        <item>2/operator</item>
+        <item>3/peminjam</item>
+    </string-array>
+
+    <string-array name="Kondisi">
+        <item>5%</item>
+        <item>10%</item>
+        <item>20%/</item>
+        <item>25%/</item>
+        <item>30%/</item>
+        <item>35%/</item>
+        <item>40%/</item>
+        <item>45%/</item>
+        <item>50%/</item>
+        <item>55%/</item>
+        <item>60%/</item>
+        <item>65%/</item>
+        <item>70%/</item>
+        <item>75%/</item>
+        <item>80%/</item>
+        <item>85%/</item>
+        <item>90%/</item>
+        <item>95%/</item>
+        <item>100%/</item>
+    </string-array>
+
+    <string-array name="nama_inventaris">
+        <item>Sapu</item>
+        <item>Kemoceng</item>
+        <item>Pengki</item>
+        <item>Meja</item>
+        <item>Kursi</item>
+        <item>Penghapus</item>
+        <item>Sabun</item>
+        <item>Obat-Obatan</item>
+        <item>Kertas Print</item>
+
+    </string-array>
+
+    <string-array name="Nama_Barang_Pinjaman">
+
+        <item>Sapu</item>
+        <item>WhiteBoard</item>
+        <item>Sapu</item>
+        <item>Pengki</item>
+        <item>Kemoceng</item>
+        <item>Ember</item>
+        <item>Pelan</item>
+        <item>Infocus</item>
+        <item>Terminal</item>
+
+    </string-array>
+
+    <string-array name="Keterangan">
+        <item>Ada</item>
+        <item>Tidak Ada</item>
+
+    </string-array>
+
+
+    <string-array name="Ruangan">
+        <item>G1</item>
+        <item>G2</item>
+        <item>G3</item>
+        <item>G4</item>
+
+    </string-array>
+
+    <string-array name="Jumlah">
+
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+
+
+    </string-array>
+
+
+    <!--end of spinner text-->
+
+    <string name="Tambahakun">TambahAkun</string>
+    <string name="Barang">Barang</string>
+    <string name="Inventaris">Inventaris</string>
+    <string name="Peminjaman">Peminjaman</string>
+    <string name="title_activity_nav_daw">NavDaw</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+</resources>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#c4c5c6">
+
+
+        <ImageButton
+            android:id="@+id/btntambahuser"
+            android:layout_width="346dp"
+            android:layout_height="91dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="128dp"
+            android:src="@drawable/tambahuser" />
+
+        <ImageButton
+            android:id="@+id/btnbarang"
+            android:layout_width="347dp"
+            android:layout_height="93dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="345dp"
+            android:src="@drawable/ic_note_add_black_24dp" />
+
+        <ImageButton
+            android:id="@+id/btninventaris"
+            android:layout_width="349dp"
+            android:layout_height="93dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="448dp"
+            android:src="@drawable/ic_note_black_24dp" />
+
+        <ImageButton
+            android:id="@+id/btnSignout"
+            android:layout_width="346dp"
+            android:layout_height="91dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="557dp"
+            android:src="@drawable/ic_play_for_work_black_24dp" />
+
+        <ImageButton
+            android:id="@+id/btnpinjaman"
+            android:layout_width="347dp"
+            android:layout_height="87dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="241dp"
+            android:src="@drawable/ic_add_box_black_24dp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="154dp"
+            android:layout_marginTop="184dp"
+            android:text="Tambah User"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="146dp"
+            android:layout_marginTop="502dp"
+            android:text="Inventaris"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="603dp"
+            android:text="Logout"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="144dp"
+            android:layout_marginTop="405dp"
+            android:text="Barang"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="149dp"
+            android:layout_marginTop="299dp"
+            android:text="Pinjaman"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="198dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="97dp"
+            android:layout_marginTop="68dp"
+            android:text="Ingin kemana?"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

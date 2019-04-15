@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Peminjaman">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#c4c5c6"
+        android:layout_height="match_parent">
+
+       <ListView
+            android:id="@+id/ListViewPeminjam"
+            android:layout_width="397dp"
+            android:layout_height="500dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="6dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerpinjam"
+            android:layout_width="295dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="115dp"
+            android:layout_marginEnd="0dp"
+            android:entries="@array/Nama_Barang_Pinjaman"
+            android:spinnerMode="dropdown" />
+
+        <Button
+            android:id="@+id/btnkirim"
+            android:layout_width="267dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="175dp"
+            android:text="Submit"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edtnama"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint="Masukan Nama Peminjam.."
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="82dp"
+            android:layout_marginEnd="27dp"
+            android:text="Pilih Barang Yang Di pinjam..."
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
